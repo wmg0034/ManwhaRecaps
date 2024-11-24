@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Upload new File</title>
+<link rel="stylesheet" href = "{{ url_for('static', filename = 'css/style.css')}}">
+
+
+<style>
+</style>
+
+<script src=""></script>
+
+<body style = "background-color: #1e2124;">
+    <h1 style = "color: whitesmoke;">Upload new File</h1>
+        <form method=post enctype=multipart/form-data>
+            <input type=file name=file style="color:whitesmoke">
+            <input type=submit value=Upload>
+        </form>
+</body>
