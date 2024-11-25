@@ -11,10 +11,6 @@ from ultralytics import YOLO
 
 os.environ['MPLCONFIGDIR'] = os.getcwd() + "/configs/" 
 # this line is to combat the following error: "Matplotlib created a temporary cache directory at /tmp/matplotlib-bhs27m6o because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing." 
-# it is not currently included in docker container.
-
-#os.environ['YOLO_CONFIG_DIR'] = '/.config/Ultralytics'
-# this line is to combat the following error: maybe adding this later
 
 
 UPLOAD_FOLDER = 'upload'
